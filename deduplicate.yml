@@ -1,0 +1,8 @@
+# Define a function to remove duplicates from a list
+functions:
+  deduplicate:
+    inputType: list
+    outputType: list
+    # Use a Set to remove duplicates from the input list
+    body: |
+      return list(set(input))

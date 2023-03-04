@@ -1,0 +1,39 @@
+prefixes:
+  ex: http://www.example.com/
+  schema: https://schema.org/
+  mo: http://purl.org/ontology/mo/
+
+sources:
+  - [music.csv~csv]
+
+mappings:
+  songs:
+    s: ex:$(index)
+    po:
+      - [a, schema:MusicRecording]
+      - [schema:byArtist, ex:$(artist)]
+      - [schema:genre, ex:$(top genre)]
+      - [schema:datePublished, ex:$(top genre)]
+      - [schema:datePublished, $(debut episode), xsd:gYear]
+      - [rdfs:label, ex:$(title), en~lang]
+  
+  artists:
+    # Use the "deduplicate" function to remove duplicates from the "artist" column
+    function: deduplicate
+    sources: [0]
+    s: ex:$(artist)
+    po: 
+      - [a, schema:Person]
+      - [rdfs:label, ex:$(artist), en~lang]
+
+  genre:
+    # Use the "deduplicate" function to remove duplicates from the "artist" column
+    function: deduplicate
+    sources: [0]
+    s: ex:$(top genre)
+    po: 
+      - [a, mo:Genre]
+      - [rdfs:label, ex:$(top genre), en~lang]
+
+# Include the "deduplication.yml" file that defines the "deduplicate" function
+include: deduplication.yml
