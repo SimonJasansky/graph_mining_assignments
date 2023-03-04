@@ -2,38 +2,35 @@ prefixes:
   ex: http://www.example.com/
   schema: https://schema.org/
   mo: http://purl.org/ontology/mo/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
 
 sources:
   - [music.csv~csv]
 
 mappings:
   songs:
+    sources:
+      - [music.csv~csv]
     s: ex:$(index)
     po:
       - [a, schema:MusicRecording]
-      - [schema:byArtist, ex:$(artist)]
-      - [schema:genre, ex:$(top genre)]
-      - [schema:datePublished, ex:$(top genre)]
-      - [schema:datePublished, $(debut episode), xsd:gYear]
-      - [rdfs:label, ex:$(title), en~lang]
+      - [schema:byArtist, ex:$(artist_iri)]
+      - [schema:genre, ex:$(top genre_iri)]
+      - [schema:datePublished, $(year), xsd:gYear]
+      - [rdfs:label, $(title), en~lang]
   
   artists:
-    # Use the "deduplicate" function to remove duplicates from the "artist" column
-    function: deduplicate
-    sources: [0]
-    s: ex:$(artist)
+    sources:
+     - [artists.csv~csv]
+    s: ex:$(artist_iri)
     po: 
       - [a, schema:Person]
-      - [rdfs:label, ex:$(artist), en~lang]
+      - [rdfs:label, $(artist), en~lang]
 
   genre:
-    # Use the "deduplicate" function to remove duplicates from the "artist" column
-    function: deduplicate
-    sources: [0]
-    s: ex:$(top genre)
+    sources:
+      - [genres.csv~csv]
+    s: ex:$(top genre_iri)
     po: 
       - [a, mo:Genre]
-      - [rdfs:label, ex:$(top genre), en~lang]
-
-# Include the "deduplication.yml" file that defines the "deduplicate" function
-include: deduplication.yml
+      - [rdfs:label, $(top genre), en~lang]
