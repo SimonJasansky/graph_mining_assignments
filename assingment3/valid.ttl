@@ -1,0 +1,458 @@
+@prefix ns1: <https://makg.org/property/> .
+@prefix ns2: <http://purl.org/spar/cito/> .
+@prefix ns3: <http://www.w3.org/ns/org#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
+@prefix ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#> .
+
+<http://MAGexample.org/00114AFB> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/019B9317> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/0286DD28> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/05D3F1BC> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/07D9BB0D> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/082423AF> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/083A379C> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/087995A8> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/08B17B5D> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/08B225C5> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/0A80736C> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/0AB2D6E8> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/0AF7F813> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/0F49B206> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/587F577A> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5891297A> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/5B3879F4> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/5B5D81C8> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/5C5E1F63> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/5CBCE37E> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5CECA6B1> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5CFBA927> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5D75FD3A> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5D9ED7A7> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/5F2F87E5> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/5F32D195> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/63C65319> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/6EF84542> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7512A3E4> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7658F346> a <http://MAGexample.org/type/author> ;
+    ns3:memberOf <http://MAGexample.org/07C34834> .
+
+<http://MAGexample.org/7730E66C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7773134C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/789DAD30> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/799FBA12> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/7F67D084> .
+
+<http://MAGexample.org/7AAD1531> a <http://MAGexample.org/type/author> ;
+    ns3:memberOf <http://MAGexample.org/07C34834> .
+
+<http://MAGexample.org/7B534F9D> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7B6D7831> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7C7D8244> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7CB7DAFA> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7CFC8D2A> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7CFE3107> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D06231F> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/7D07E189> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D0ADCE2> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D2B698F> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D32291D> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D48A99A> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/7D4BECF5> a <http://MAGexample.org/type/author> ;
+    ns3:memberOf <http://MAGexample.org/07C34834> .
+
+<http://MAGexample.org/7D503864> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D6444FA> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D756EED> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7D786D69> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D817608> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D93C83B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7D9CC37C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7DA7C1A0> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7DDDFE30> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7DE3BCB2> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7E199720> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E1A7F1E> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/099CC839> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E1F9EC9> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E2940BD> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/1405CC6F>,
+        <http://MAGexample.org/853C0ABD> ;
+    ns2:cites <http://MAGexample.org/80276CAE> .
+
+<http://MAGexample.org/7E29BAF3> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E329201> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E3A6625> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E3E76B7> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/7E6121E5> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E65D12B> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/291461F7> ;
+    ns2:cites <http://MAGexample.org/7CF8F77D>,
+        <http://MAGexample.org/7F41F826> ;
+    ns5:hasDiscipline <http://MAGexample.org/093C4716> .
+
+<http://MAGexample.org/7E77AC6B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E7BB75D> a <http://MAGexample.org/type/paper> ;
+    ns2:cites <http://MAGexample.org/7DD0397C>,
+        <http://MAGexample.org/80E18282> ;
+    ns5:hasDiscipline <http://MAGexample.org/03DDEE22> .
+
+<http://MAGexample.org/7E85D967> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E86CB86> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E870311> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7E9C0FC0> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7EABF9C6> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7ECE8F26> a <http://MAGexample.org/type/paper> ;
+    ns6:coauthor <http://MAGexample.org/47C39427>,
+        <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/7ECF8F0B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7EDB5383> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7EE014F8> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7EF18C7F> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F0997A1> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F15F7B1> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F181107> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F1F88FC> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F248834> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F2786A9> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7F33F805> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F397C0B> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/7F3E27B7> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F5E0D39> a <http://MAGexample.org/type/paper> ;
+    ns2:cites <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F5FB6F9> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F68C632> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F75378D> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7F890FDA> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F982DD7> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7FA259B5> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7FA94A1B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7FCC609F> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7FDAB0E6> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/7FDB221E> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7FF47AF9> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8001EDA0> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80020EAC> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8019AD19> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/802620B2> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/802AEE38> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/803C01A9> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8049D71D> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80549FC1> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80557CFA> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8070C063> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80743B1F> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80938E8B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8093CD23> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80A29A11> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80B5D06A> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80B80B10> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80B8A0CF> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80BBC2B6> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80C179B3> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/061E7B19> .
+
+<http://MAGexample.org/80CB50CB> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80D1DFCD> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/80D9791D> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80E8A262> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80EF0452> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/80FD7E3B> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/81083319> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/81114F6C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/81142B07> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8115C904> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/51CE3D72> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/45701BF3> .
+
+<http://MAGexample.org/8116A50F> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/811AC87E> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8125503C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/812AE8B3> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/8132EEEB> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/465F7C62> .
+
+<http://MAGexample.org/81695CF6> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/81720270> a <http://MAGexample.org/type/paper> ;
+    ns4:creator <http://MAGexample.org/47C39427> .
+
+<http://MAGexample.org/84F6DA8E> a <http://MAGexample.org/type/author> ;
+    ns3:memberOf <http://MAGexample.org/07C34834> .
+
+<http://MAGexample.org/061E7B19> a <http://MAGexample.org/type/author> .
+
+<http://MAGexample.org/51CE3D72> a <http://MAGexample.org/type/author> .
+
+<http://MAGexample.org/7DD0397C> a <http://MAGexample.org/type/paper> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/43319DD4> .
+
+<http://MAGexample.org/7F41F826> a <http://MAGexample.org/type/paper> .
+
+<http://MAGexample.org/7F67D084> a <http://MAGexample.org/type/author> .
+
+<http://MAGexample.org/80E18282> a <http://MAGexample.org/type/paper> ;
+    ns2:cites <http://MAGexample.org/7BF9CD89> .
+
+<http://MAGexample.org/853C0ABD> a <http://MAGexample.org/type/author> .
+
+<http://MAGexample.org/07C34834> a <http://MAGexample.org/type/affiliation> .
+
+<http://MAGexample.org/47C39427> a <http://MAGexample.org/type/conference> ;
+    ns4:creator <http://MAGexample.org/type/conference> .
+
+<http://MAGexample.org/465F7C62> a <http://MAGexample.org/type/conference> ;
+    ns1:appearsInConferenceSeries <http://MAGexample.org/type/conference> .
+
+<http://MAGexample.org/43319DD4> a <http://MAGexample.org/type/conference> .
+
