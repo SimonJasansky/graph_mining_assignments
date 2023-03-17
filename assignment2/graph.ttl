@@ -6,6 +6,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix ex: <http://www.example.com/> .
 @prefix mo: <http://purl.org/ontology/mo/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
 
 ex:0 rdf:type schema:MusicRecording ;
 	schema:byArtist "http://www.example.com/Train" ;
