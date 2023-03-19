@@ -1,0 +1,56 @@
+@prefix ns1: <https://makg.org/property/> .
+@prefix ns2: <http://purl.org/spar/cito/> .
+@prefix ns3: <http://www.w3.org/ns/org#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/spar/fabio/> .
+@prefix ns6: <http://lsdis.cs.uga.edu/projects/semdis/opus#> .
+@prefix : <http://example.org> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+
+:Scientist a sh:NodeShape ;
+    sh:targetClass <http://MAGexample.org/type/author> ;
+    sh:severity sh:Warning ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path ns3:memberOf ;
+        sh:minCount 0 ;
+        sh:class <http://MAGexample.org/type/affiliation> ;
+        sh:nodeKind sh:IRI ;
+     ] ;
+    sh:property [
+        sh:path ns6:hasCoauthor ;
+        sh:minCount 0 ;
+        sh:class :Scientist ;
+     ] .
+
+:ProperPaper a sh:NodeShape ;
+    sh:targetClass <http://MAGexample.org/type/paper> ;
+    sh:severity sh:Warning ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path ns4:hasCreator ;
+        sh:minCount 0 ;
+        sh:class :Scientist ;
+     ] ;
+    sh:property [
+        sh:path ns1:appearsInConferenceSeries ;
+        sh:minCount 0 ;
+        sh:class <http://MAGexample.org/type/conference> ;
+        sh:nodeKind sh:IRI ;
+     ] ;
+    sh:property [
+        sh:path ns5:hasDiscipline ;
+        sh:minCount 0 ;
+        sh:class <http://MAGexample.org/type/domain> ;
+        sh:nodeKind sh:IRI ;
+     ] ;
+    sh:property [
+        sh:path ns5:cites ;
+        sh:minCount 0 ;
+        sh:class :ProperPaper;
+     ] .
+
+
+
+
+

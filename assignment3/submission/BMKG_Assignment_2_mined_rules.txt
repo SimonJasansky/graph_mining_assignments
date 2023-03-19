@@ -1,0 +1,71 @@
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Automatically mined rules
+------------------------------------------------------------------------------------------------------------------------------
+
+Rule 1: 
+
+
+INSERT {
+    ?b <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?a .
+} 
+WHERE {
+    ?a <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?b .
+}
+
+
+Confidence score: 0.989122552574
+
+Rule 2: 
+
+
+INSERT {
+    ?a <https://makg.org/property/appearsInConferenceSeries> ?b  .
+}
+WHERE {
+    ?g <http://purl.org/spar/cito/cites> ?a .
+    ?g <https://makg.org/property/appearsInConferenceSeries> ?b .
+}
+
+
+Confidence score: 0.30979790227679715
+
+Rule 3:
+
+INSERT {
+  ?a <http://www.w3.org/ns/org#memberOf> ?b .
+}
+WHERE {
+  ?a <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?h .
+  ?h <http://www.w3.org/ns/org#memberOf> ?b .
+}
+
+Confidence score: 0.30470874481179333
+
+Rule 4: 
+
+INSERT {
+  ?a <http://purl.org/spar/fabio/hasDiscipline> ?b .
+}
+WHERE {
+  ?a <http://purl.org/spar/cito/cites> ?h .
+  ?h <http://purl.org/spar/fabio/hasDiscipline> ?b .
+}
+
+Confidence score: 0.12113991612657263
+
+Rule 5:
+
+INSERT {
+  ?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?b .
+}
+WHERE {
+  ?g <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?a .
+  ?g <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?b .
+}
+
+Confidence score: 1.0
+
+-----------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,92 @@
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Handcrafted rules rules
+------------------------------------------------------------------------------------------------------------------------------
+
+Rule 1: 
+
+
+INSERT {
+    ?conferenceA <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+} 
+WHERE {
+    ?somepaper <https://makg.org/property/appearsInConferenceSeries> ?conferenceA .
+    ?somepaper <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+}
+
+
+Confidence score: 1
+
+Rule 2: 
+
+
+INSERT {
+    ?affiliationQ <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+}
+WHERE {
+    ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+    ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+    ?authorA <http://www.w3.org/ns/org#memberOf> ?affiliationQ .
+}
+
+
+Confidence score: 1
+
+Rule 3:
+
+INSERT {
+  ?authorA <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+}
+WHERE {
+  ?paperA <http://purl.org/spar/fabio/hasDiscipline> ?domainX .
+  ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+}
+
+Confidence score: 1
+
+
+Rule 4:
+
+INSERT {
+  ?paperA <http://MAGexample.org/hasAffiliation> ?affiliationQ .
+}
+WHERE {
+  ?paperA <http://purl.org/dc/terms/creator> ?authorA .
+  ?authorA <http://www.w3.org/ns/org#memberOf> ?affiliationQ .
+}
+
+Confidence score: 1
+
+
+Rule 5:
+
+INSERT {
+    ?authorA <https://makg.org/property/attends> ?conferenceZ .
+}
+WHERE {
+    ?paperC <https://makg.org/property/appearsInConferenceSeries> ?conferenceZ .
+    ?paperC <http://purl.org/dc/terms/creator> ?authorA .
+}
+
+Confidence score: 1
+
+
+Rule 6:
+
+INSERT {
+  ?authorA <http://MAGexample.org/isColleagueOf> ?authorB .
+  ?authorB <http://MAGexample.org/isColleagueOf> ?authorA .
+}
+WHERE {
+  ?authorA <http://www.w3.org/ns/org#memberOf> ?affiliationZ .
+  ?authorB <http://www.w3.org/ns/org#memberOf> ?affiliationZ .
+  ?authorA <http://lsdis.cs.uga.edu/projects/semdis/opus#coauthor> ?authorB .
+  ?authorA <http://purl.org/spar/fabio/hasDiscipline> ?domainA .
+  ?authorB <http://purl.org/spar/fabio/hasDiscipline> ?domainA .
+}
+
+Confidence score: 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+

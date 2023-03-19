@@ -1,0 +1,30 @@
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Automatically mined rules
+------------------------------------------------------------------------------------------------------------------------------
+
+Rule 1: 
+
+
+-- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
+
+
+Confidence score: 
+
+Rule 2: 
+
+
+-- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
+
+
+Confidence score: 
+
+Rule 3:
+
+-- INSERT SPARQL FORMULATION OF YOUR RULE HERE --
+
+Confidence score:
+
+-----------------------------------------------------------------------------------------------------------------------------
+
